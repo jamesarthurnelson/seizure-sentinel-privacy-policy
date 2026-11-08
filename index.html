@@ -1,70 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Seizure Sentinel — Privacy Policy</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seizure Sentinel Privacy Policy</title>
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #1a1a1a; background: #fff; }
   h1 { font-size: 1.6em; }
   h2 { font-size: 1.15em; margin-top: 2em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
   .updated { color: #666; font-size: 0.9em; }
   footer { margin-top: 3em; color: #666; font-size: 0.85em; }
   a { color: #0a66c2; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #111; color: #e8e8e8; }
+    h2 { border-bottom-color: #333; }
+    .updated, footer { color: #9a9a9a; }
+    a { color: #6aa9ff; }
+  }
 </style>
 </head>
 <body>
+<h1>Seizure Sentinel Privacy Policy</h1>
+<p class="updated">Effective and last updated: November 8, 2026. Matches the in-app consent version 2026-11-07.1.</p>
 
-<h1>Seizure Sentinel — Privacy Policy</h1>
-<p class="updated">Effective and last updated: September 29, 2026 (revised: anonymized outcome reporting is now active — see below)</p>
+<p>Seizure Sentinel is a health diary for people with and without seizures. It is not a medical device and does not diagnose, predict, prevent or treat seizures. This page explains what the app collects, why, where it is stored, and how you can download or delete it.</p>
 
-<p>Seizure Sentinel is a wellness app that summarizes trends in your Apple Watch health data. It is not a medical device and does not diagnose, predict, or prevent seizures. This page explains what data the app uses, where it lives, and what — if anything — ever leaves your device.</p>
+<h2>Joining means sharing</h2>
+<p>When you join, your data uploads to your Sentinel account so the app can show you your record, compare each day with your own history and, as more people join, with the community. Sentinel is for adults (18 and over).</p>
 
-<h2>Data the app reads</h2>
-<p>With your permission, the app reads the following from Apple Health, sourced only from your Apple Watch:</p>
+<h2>What Sentinel collects</h2>
+<p><strong>From Apple Health, with your permission:</strong></p>
 <ul>
-  <li>Heart rate variability (HRV)</li>
-  <li>Resting heart rate</li>
-  <li>Wrist temperature (sleeping)</li>
-  <li>Respiratory rate</li>
-  <li>Sleep analysis</li>
-  <li>Step count</li>
+  <li>Heart rate, heart rate variability (HRV) and resting heart rate</li>
+  <li>Breathing rate and wrist temperature</li>
+  <li>Sleep, steps and falls</li>
+  <li>Period days: the dates only, never flow or other cycle data</li>
+  <li>Date of birth and sex: used to fill in the questions; only your age range and sex are stored, never your birth date</li>
 </ul>
-<p>With your permission, the app also uses your device's location, only to automatically detect travel and altitude changes that can affect the patterns above. Location is never required to use the app's core features.</p>
-
-<h2>Data you enter yourself</h2>
-<p>You may optionally log seizure dates (and an optional note) directly in the app, to track your own history and let the app show you its own accuracy against that history.</p>
-
-<h2>Where this data lives</h2>
-<p><strong>Your actual health data, location, and seizure log stay on your device, in full.</strong> They are stored in a local database inside the app and are never uploaded, transmitted, sold, or shared with us or with any third party — including us. We do not operate any server that receives your health data, your location, or the content of your seizure log. The only exception — an anonymized summary, never the underlying data itself — is described in the next section.</p>
-
-<h2>What the app downloads</h2>
-<p>The app periodically downloads a small set of anonymous, non-personal configuration values (the numeric thresholds its scoring uses) from a read-only public database. This download contains no information about you and is not tied to your identity, Apple ID, or device in any way we can access.</p>
-
-<h2>Anonymized outcome reporting</h2>
-<p>To help validate and improve the app's scoring model, an anonymized summary is sent to our server when your risk level changes or you log a seizure — comparing risk-level changes against seizures you've logged, the same way a researcher would check whether a warning actually preceded a real event. Each summary is designed so that:</p>
+<p><strong>From your Apple Watch:</strong> movement readings from its accelerometer, recorded in the background, with which wrist the Watch is on and which side its crown faces.</p>
+<p><strong>From your iPhone:</strong> how the phone moves while Sentinel is open, to measure how steady your hand is. Nothing is recorded while the app is closed.</p>
+<p><strong>What you enter:</strong></p>
 <ul>
-  <li>It's linked only by a random identifier generated on your device — never your Apple ID, iCloud account, or any other identifier tied to you personally.</li>
-  <li>It contains only category labels and day-resolution timing — never exact values, exact timestamps, your location, or free text you've written.</li>
+  <li>Diary entries for seizures and other symptoms: the type, date and time, any tags you tap (for example Stressed or Missed medication), and any note you write</li>
+  <li>Medication changes (the date, never the medicine's name unless you write it in a note) and day notes</li>
+  <li>Your answers to the four-weekly seizure check-in</li>
+  <li>Your answers when you join: whether you have a seizure diagnosis, age range, sex, country (and US region), dominant hand and, optionally, seizure type</li>
+  <li>Whether you'd like to be contacted about future research (off unless you turn it on)</li>
 </ul>
-<p>Nothing in this summary — on its own or combined with anything else we receive — can identify who you are.</p>
+<p><strong>Time zones:</strong> the hours your phone was ahead of or behind UTC on each day, and trips as dates and hours from home. Never the name of a time zone or a place. Sentinel doesn't use your location.</p>
+<p><strong>Your consent:</strong> each version of the consent screen you accept, with its date.</p>
+
+<h2>How it is used</h2>
+<ul>
+  <li>To show you your own data: Today, your Record, Patterns and the physician summary you can make.</li>
+  <li>To compare your days with your own history, and with community totals that never identify anyone.</li>
+  <li>To check the app is working well (for example, how complete uploads are).</li>
+</ul>
+<p>Your notes are kept only so your diary comes back if you change phones. They are not analysed.</p>
+
+<h2>Where it is stored</h2>
+<p>On Amazon Web Services (AWS) in the United States, encrypted, under a random ID created on your phone. Sign in with Apple only confirms that uploads come from you: Sentinel stores a one-way scrambled form of your Apple account identifier to check that, and never sees your name or email. Your diary is not stored in iCloud.</p>
 
 <h2>What we don't do</h2>
-<p>Seizure Sentinel contains no advertising, no third-party analytics software, and no data brokers. We do not sell data, because we do not receive any to sell.</p>
+<p>Sentinel doesn't sell your data, doesn't use it for advertising, and doesn't share it with any third party. There is no advertising or third-party analytics software in the app. AWS stores the data on our behalf, and Apple provides Sign in with Apple.</p>
 
-<h2>Your control over this data</h2>
-<p>Since everything is stored locally, deleting the app deletes all of its data with it. There is no account to close and no remote copy to request deletion of, because none exists.</p>
+<h2>Your control</h2>
+<ul>
+  <li><strong>Download:</strong> Settings &rarr; Your data makes one file with everything Sentinel stores for you.</li>
+  <li><strong>Delete:</strong> Settings &rarr; Your data &rarr; Delete removes everything Sentinel stores for you, on its servers and on your phone, and ends Sentinel's Sign in with Apple access. This can't be undone. Your Apple Health data isn't touched.</li>
+  <li><strong>New phone:</strong> sign in with Apple to bring your diary back.</li>
+  <li><strong>Permissions:</strong> you can turn off any Health category, motion access or notifications in iOS Settings at any time.</li>
+</ul>
+<p>Data is kept until you delete it.</p>
 
-<h2>Children's privacy</h2>
-<p>Seizure Sentinel is not directed at children and does not knowingly collect information from children.</p>
+<h2>Children</h2>
+<p>Sentinel is for adults. Anyone who answers that they're under 18 can't join, and nothing they enter is uploaded.</p>
 
 <h2>Changes to this policy</h2>
-<p>If this policy changes in a way that affects what data leaves your device, the app will ask you to review and acknowledge the change before it takes effect.</p>
+<p>If what Sentinel collects changes, the app shows the consent screen again and asks you to accept the new version before it takes effect, and this page is updated.</p>
 
 <h2>Contact</h2>
-<p>Questions about this policy or your data can be sent to <a href="mailto:JamesArthurNelson@gmail.com">JamesArthurNelson@gmail.com</a>.</p>
+<p>Questions about this policy or your data: <a href="mailto:jamesarthurnelson@gmail.com">jamesarthurnelson@gmail.com</a>.</p>
 
-<footer>Seizure Sentinel is a wellness tool, not a medical device. It does not diagnose, predict, or prevent seizures, and is not a substitute for your care team or prescribed treatment.</footer>
-
+<footer>Seizure Sentinel is a health diary, not a medical device. It doesn't diagnose, predict, prevent or treat seizures, and it doesn't replace your care team or your treatment. Check with your doctor before any medical decision.</footer>
 </body>
 </html>
